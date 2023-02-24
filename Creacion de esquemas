@@ -1,0 +1,9 @@
+CREATE SCHEMA asignacion_citas; USE asignacion_citas;
+
+CREATE TABLE centro_citas( id INT, name VARCHAR(45), direccion VARCHAR(45), telefono VARCHAR(45) );
+
+CREATE TABLE profesional( id INT, nombre VARCHAR(45), especialidad VARCHAR(45), correo VARCHAR(45), consultorio INT );
+
+CREATE TABLE afiliado( id INT, nombre VARCHAR(45), direccion VARCHAR(45), telefono INT );
+
+CREATE TABLE citas( id INT, name VARCHAR(45), lugar VARCHAR(45), fecha VARCHAR(45), horario VARCHAR(45) );ç
